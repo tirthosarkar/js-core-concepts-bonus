@@ -13,4 +13,8 @@ let c = true;
 let d = null;
 let e = undefined;
 
+// non-primitive data types
+
+let f = { price: 22 }
+let g = [1, 2, 3, 4]
 
