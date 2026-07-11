@@ -17,9 +17,21 @@ if (data) {
   console.log('Falsy');
 }
 
-let price = 0; 
+// let price = 0; 
+// if (price) {
+//   console.log('Price is Truthy');
+// } else {
+//   console.log('Price is Falsy'); 
+// }
+
+let price = false;
 if (price) {
   console.log('Price is Truthy');
 } else {
-  console.log('Price is Falsy'); 
+  console.log('Price is Falsy');
 }
+
+let value = 0;
+if (value) {
+  console.log('Value is Truthy');
+} 
