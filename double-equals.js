@@ -5,5 +5,5 @@ console.log(2 == true); // false
 console.log(2 == false); // false
 console.log(2 == 3); // false
 console.log(2 == '1'); // false
-console.log(true == 2); // false
-console.log(false == 2); // false
+console.log(true == 1); // true
+console.log(false == 0); // true
