@@ -13,7 +13,8 @@ function add(a, b) {
   return total;
   const value = addTwo(total); // Call to another function  
 
-  function = addTwo(num) {
+  function addTwo(num) {
+    num = num + pi; // Local variable
     return num + 2;
   }
 
