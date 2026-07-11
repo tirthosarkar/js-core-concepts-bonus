@@ -11,7 +11,10 @@ outer(); // Output: Hello from innerFunction!
 
 function counter() {
   let count = 0; // Local variable
-function increment() {
+  function increment() {
     console.log('value of count:', count); // Output: 0, 1, 2, ...
   }
   return increment;
+}
+const count1 = counter();
+console.log('count1:', count1); // Output: [Function: increment]
