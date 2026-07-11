@@ -1,4 +1,5 @@
 let pi = 3.14159; // Global variable
+add(2,5); // Output: 5.64159
 
 function calculateArea(radius) {
   let area = pi * radius * radius; // Local variable
