@@ -17,4 +17,5 @@ function counter() {
   return increment;
 }
 const count1 = counter();
-console.log('count1:', count1); // Output: [Function: increment]
+count1(); // Output: 0
+count1();
