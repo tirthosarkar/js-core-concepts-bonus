@@ -17,7 +17,7 @@ if (data) {
   console.log('Falsy');
 }
 
-let price = 22; 
+let price = 0; 
 if (price) {
   console.log('Price is Truthy');
 } else {
