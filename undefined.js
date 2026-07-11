@@ -21,3 +21,10 @@ const arr = [1, 2, 3, 4];
 
 delete arr[1]; // delete the element at index 1
 console.log(arr[1]) // undefined
+
+function test() {
+  console.log('hello'); // hello
+  return; // undefined
+}
+
+const result = test(); // undefined
