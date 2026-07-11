@@ -39,3 +39,6 @@ if (true) {
 while (true) {
 
 }
+
+const age = 21;
+console.log(age); // Output: 21
