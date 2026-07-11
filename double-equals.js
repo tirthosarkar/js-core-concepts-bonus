@@ -15,3 +15,4 @@ console.log(undefined == 0); // false // undefined is converted to NaN, and NaN 
 console.log(NaN == NaN); // false // NaN is never equal to anything, including itself.
 console.log(NaN == 0); // false // NaN is converted to 0, but 0 is not equal to 0 in this context.
 console.log(5 == '5'); // false // '5' is converted to number 5, but 5 is not equal to 5 in this context.
+console.log({} == {}); // false // {} is converted to [object Object], but [object Object] is not equal to [object Object] in this context.
