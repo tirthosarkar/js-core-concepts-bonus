@@ -7,3 +7,4 @@ console.log(2 == 3); // false
 console.log(2 == '1'); // false
 console.log(true == 1); // true
 console.log(false == 0); // true
+console.log(null == undefined); // true
