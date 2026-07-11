@@ -5,5 +5,13 @@ function outerFunction() {
   return innerFunction;
 }
 const outer = outerFunction();
-console.log('in the outside:', outer); // Output: [Function: innerFunction]
+// result(); // Output: [Function: innerFunction]
+// console.log('in the outside:', outer); // Output: [Function: innerFunction]
 outer(); // Output: Hello from innerFunction!
+
+function counter() {
+  let count = 0; // Local variable
+function increment() {
+    console.log('value of count:', count); // Output: 0, 1, 2, ...
+  }
+  return increment;
