@@ -34,4 +34,6 @@ if (price) {
 let value = 0;
 if (value) {
   console.log('Value is Truthy');
-} 
+} else {
+  console.log('Value is Falsy');
+}
