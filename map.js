@@ -24,6 +24,9 @@ const products = [
 ];
 
 const prices = products.map(pd => pd.price);
+const names = products.map(pd => {
+  const
+})
 console.log(prices)
 
 
