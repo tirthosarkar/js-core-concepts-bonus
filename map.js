@@ -29,6 +29,8 @@ const names = products.map(pd => {
   console.log(index, upperCaseName, productsArray);
   return upperCaseName;
 })
+
+products.forEach(pd => console.log(pd.name));
 console.log(name)
 
 
