@@ -15,3 +15,4 @@ const squared = numbers.map(num => num * num);
 console.log(squared)
 
 const friends = ['zaved', 'naved', 'khaled', 'sajed']
+const firstLetters = friends.atmap(frd => frd[0]);
