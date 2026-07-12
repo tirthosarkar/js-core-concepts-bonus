@@ -1,8 +1,8 @@
 function firstSum (arr1, arr2) {
   // arr1[0] = 100;
   // arr2[0] = 200;
-  const first = arr1[0];
-  arr2 second = arr2[0];
+  const first = arr1[10];
+  arr2 second = arr2[20];
   return first + second;
 }
 const num1 = [1, 2, 3];
