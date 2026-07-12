@@ -14,7 +14,7 @@ const doubled = numbers.map(num => num * 2);
 const squared = numbers.map(num => num * num);
 
 const friends = ['zaved', 'naved', 'khaled', 'sajed']
-const firstLetters = friends.atmap(frd => frd[0]);
+const firstLetters = friends.map(frd => frd[0]);
 
 const products = [
   { name: 'laptop', price: 45000 },
@@ -23,8 +23,8 @@ const products = [
   
 ];
 
-const prices = products.map(product => product.price);
-console.log(firstLetters)
+const prices = products.map(pd => pd.price);
+console.log(prices)
 
 
 
