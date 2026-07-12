@@ -23,6 +23,9 @@ const products = [
   
 ];
 
+const prices = products.map(product => product.price);
+console.log(firstLetters)
+
 
 
 
