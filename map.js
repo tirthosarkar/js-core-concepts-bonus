@@ -25,7 +25,8 @@ const products = [
 
 const prices = products.map(pd => pd.price);
 const names = products.map(pd => {
-  const
+  const upperCaseName = pd.name.toUpperCase();
+  console
 })
 console.log(prices)
 
