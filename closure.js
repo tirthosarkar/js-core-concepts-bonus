@@ -16,7 +16,7 @@ function counter(owner) {
   
     console.log('value of count:',owner, count); // Output: 0, 1, 2, ...
   }
-  return increment;
+  return increment; 
 }
 
 const rahimCounter = counter('Rahim');
