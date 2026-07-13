@@ -14,5 +14,6 @@ const students = [
   {name: 'Nasib', age:82},
 ]
 
-console.log(NFriends);
+const olderStudent = students.filter(std => std.age > 30);
+console.log(olderStudent);
 
