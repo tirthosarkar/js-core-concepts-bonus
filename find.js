@@ -8,5 +8,5 @@ const students = [
   { name: 'Nasib', age: 82 },
 ];
 
-const student = students.find(std => std.name === 'Khaled');
+const student = students.find(std => std.name[0] === 'N');
 console.log(student)
