@@ -4,4 +4,6 @@ for (const num of numbers) {
   sum = sum + num;
 }
 
+// const total = numbers.reduce((ActiveXObject, num)=> acc + num, 0)
+const 
 console.log(sum)
